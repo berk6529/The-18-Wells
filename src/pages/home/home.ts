@@ -7,8 +7,12 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  public wells: string[] = ["The Bible", "Ministry"];
+
   constructor(public navCtrl: NavController) {
 
   }
+
+
 
 }
