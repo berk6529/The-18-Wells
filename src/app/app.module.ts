@@ -24,7 +24,7 @@ import { TithingPage } from "../pages/home/tithing/tithing";
 import { SowingAndReapingPage } from "../pages/home/sowing-and-reaping/sowing-and-reaping";
 import { PrayerLifePage } from "../pages/home/prayer-life/prayer-life";
 import { MeditationPage } from "../pages/home/meditation/meditation";
-import { AltersOfGodPage } from "../pages/home/alters-of-god/alters-of-god";
+import { AltarsOfGodPage } from "../pages/home/altars-of-god/altars-of-god";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -53,7 +53,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SowingAndReapingPage,
     PrayerLifePage,
     MeditationPage,
-    AltersOfGodPage,
+    AltarsOfGodPage,
   ],
   imports: [
     BrowserModule,
@@ -83,7 +83,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SowingAndReapingPage,
     PrayerLifePage,
     MeditationPage,
-    AltersOfGodPage,
+    AltarsOfGodPage,
   ],
   providers: [
     StatusBar,

@@ -17,7 +17,7 @@ import { TithingPage } from "./tithing/tithing";
 import { SowingAndReapingPage } from "./sowing-and-reaping/sowing-and-reaping";
 import { PrayerLifePage } from "./prayer-life/prayer-life";
 import { MeditationPage } from "./meditation/meditation";
-import { AltersOfGodPage } from "./alters-of-god/alters-of-god";
+import { AltarsOfGodPage } from "./altars-of-god/altars-of-god";
 
 @Component({
   selector: 'page-home',
@@ -26,9 +26,9 @@ import { AltersOfGodPage } from "./alters-of-god/alters-of-god";
 export class HomePage {
 
   public wells: string[] = ["The Bible", "Holy Spirit", "House of God", "Man of God", "Divine Health",
-    "Marriage Convenant", "Household", "Divine Supply", "Eyes of Understanding", "Ministry",
+    "Marriage Covenant", "Household", "Divine Supply", "Eyes of Understanding", "Ministry",
     "Relationships in God", "Canopy of Safety", "Worship and Praise", "Tithing", "Sowing and Reaping",
-    "Prayer Life", "Meditation", "Alters of God"];
+    "Prayer Life", "Meditation", "Altars of God"];
 
   constructor(public navCtrl: NavController) {
 
@@ -87,8 +87,8 @@ export class HomePage {
       case "Meditation":
         this.navCtrl.push(MeditationPage);
         break;
-      case "Alters of God":
-        this.navCtrl.push(AltersOfGodPage);
+      case "Altars of God":
+        this.navCtrl.push(AltarsOfGodPage);
         break;
     }
   }
