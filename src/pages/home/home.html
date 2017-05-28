@@ -6,7 +6,7 @@
 
 <ion-content padding>
   <ion-list>
-    <button ion-item *ngFor="let well of wells" (click)="wellSelected(well)">
+    <button ion-item *ngFor="let well of wells" (click)="routeWellSelected(well)">
       {{ well }}
     </button>
   </ion-list>
