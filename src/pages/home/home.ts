@@ -5,7 +5,7 @@ import { HolySpiritPage } from "./holy-spirit/holy-spirit";
 import { HouseOfGodPage } from "./house-of-god/house-of-god";
 import { ManOfGodPage } from "./man-of-god/man-of-god";
 import { DivineHealthPage } from "./divine-health/divine-health";
-import { MarriageConvenantPage } from "./marriage-covenant/marriage-covenant";
+import { MarriageCovenantPage } from "./marriage-covenant/marriage-covenant";
 import { HouseholdPage } from "./household/household";
 import { DivineSupplyPage } from "./divine-supply/divine-supply";
 import { EyesOfUnderstandingPage } from "./eyes-of-understanding/eyes-of-understanding";
@@ -39,7 +39,7 @@ export class HomePage {
       case "The Bible":
         this.navCtrl.push(TheBiblePage);
         break;
-      case "holy Spirit":
+      case "Holy Spirit":
         this.navCtrl.push(HolySpiritPage);
         break;
       case "House of God":
@@ -52,7 +52,7 @@ export class HomePage {
         this.navCtrl.push(DivineHealthPage);
         break;
       case "Marriage Covenant":
-        this.navCtrl.push(MarriageConvenantPage);
+        this.navCtrl.push(MarriageCovenantPage);
         break;
       case "Household":
         this.navCtrl.push(HouseholdPage);

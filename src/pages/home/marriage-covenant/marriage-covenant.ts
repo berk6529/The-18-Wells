@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
   selector: 'page-marriage-covenant',
   templateUrl: 'marriage-covenant.html'
 })
-export class MarriageConvenantPage {
+export class MarriageCovenantPage {
 
   constructor(public navCtrl: NavController) {
 

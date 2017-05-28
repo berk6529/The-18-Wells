@@ -12,7 +12,7 @@ import { HolySpiritPage } from "../pages/home/holy-spirit/holy-spirit";
 import { HouseOfGodPage } from "../pages/home/house-of-god/house-of-god";
 import { ManOfGodPage } from "../pages/home/man-of-god/man-of-god";
 import { DivineHealthPage } from "../pages/home/divine-health/divine-health";
-import { MarriageConvenantPage } from "../pages/home/marriage-covenant/marriage-covenant";
+import { MarriageCovenantPage } from "../pages/home/marriage-covenant/marriage-covenant";
 import { HouseholdPage } from "../pages/home/household/household";
 import { DivineSupplyPage } from "../pages/home/divine-supply/divine-supply";
 import { EyesOfUnderstandingPage } from "../pages/home/eyes-of-understanding/eyes-of-understanding";
@@ -41,7 +41,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HouseOfGodPage,
     ManOfGodPage,
     DivineHealthPage,
-    MarriageConvenantPage,
+    MarriageCovenantPage,
     HouseholdPage,
     DivineSupplyPage,
     EyesOfUnderstandingPage,
@@ -71,7 +71,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HouseOfGodPage,
     ManOfGodPage,
     DivineHealthPage,
-    MarriageConvenantPage,
+    MarriageCovenantPage,
     HouseholdPage,
     DivineSupplyPage,
     EyesOfUnderstandingPage,
