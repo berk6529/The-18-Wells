@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
   selector: 'page-eyes-of-understanding',
   templateUrl: 'eyes-of-understanding.html'
 })
-export class TheBiblePage {
+export class EyesOfUnderstandingPage {
 
   constructor(public navCtrl: NavController) {
 

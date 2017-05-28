@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
   selector: 'page-house-of-god',
   templateUrl: 'house-of-god.html'
 })
-export class TheBiblePage {
+export class HouseOfGodPage {
 
   constructor(public navCtrl: NavController) {
 
